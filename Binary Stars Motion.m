@@ -9,7 +9,6 @@ close all
 m1 = 1.987E30; %kg    (Star 1 mass)
 m2 = m1/2; %kg        (Star 2 mass)
 G = 6.673E-20; %km^3/kg*s^2    (Grav parameter) 
-%% Part c
 t = 0:1E6:1E9;  %to to tf (sec)
 
 % I.C.
@@ -49,7 +48,7 @@ CM_P2_x = x2 - CM_x;
 CM_P2_y = y2 - CM_y;
 
 
-%% Plot for part c
+%% Plot for 2D Star Trajectories
 
 figure(1)
 plot(x1,y1,'.k') %Star 1
@@ -62,7 +61,7 @@ axis equal
 xlabel('x [km]')
 ylabel('y [km]')
 
-%% Plot for part d
+%% Plot for Center of Mass per star
 
 figure(2)
 plot(CM_x,CM_y,'m', 'LineWidth', 1.5)
@@ -72,7 +71,7 @@ axis equal
 xlabel('x^{OC} [km]')
 ylabel('y^{OC} [km]')
 
-%% Plot for part e
+%% Plot for part dV/dt of CM per star
 
 figure(3)
 plot(CM_xdot,CM_ydot,'*g', 'LineWidth', 1.25)
@@ -82,7 +81,7 @@ axis([0 6 0 6])  %make axis equal
 xlabel('V_x^{OC} [km/s]')
 ylabel('V_y^{OC} [km/s]')
 
-%% Plot for part f
+%% Plot for Stars motion wrt CM
 
 figure(4)
 plot(CM_P1_x,CM_P1_y,'b-.', 'LineWidth', 1.5)
