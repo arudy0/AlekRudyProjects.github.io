@@ -16,4 +16,11 @@ Title: "*Hohmann transfer orbit.m*"<br/>
 Description: Simple Hohmann transfer orbit from LEO to GEO
 
 
-PSPL Heat Transfer LOX.m
+Title: "*PSPL Heat Transfer LOX.m*"<br/>
+Description: Purdue Space Program Liquid Trajectory subteam - time it takes LOX to come to equilibrium temperature after pumped into fuel cell
+
+Title: "*Binary Stars Motion.m*"<br/>
+Description: Relative motion and energy of a binary star system
+
+
+
